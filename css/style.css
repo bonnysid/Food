@@ -660,3 +660,6 @@ a {
     opacity: 1;
   }
 }
+.lock {
+  overflow: hidden;
+}
