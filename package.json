@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bonnysid/first.git"
+    "url": "git+https://github.com/bonnysid/Food.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bonnysid/first/issues"
+    "url": "https://github.com/bonnysid/Food/issues"
   },
-  "homepage": "https://github.com/bonnysid/first#readme",
+  "homepage": "https://github.com/bonnysid/Food#readme",
   "devDependencies": {
     "json-server": "^0.16.1"
   }
