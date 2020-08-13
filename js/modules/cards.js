@@ -1,3 +1,7 @@
+import {
+    getResources
+} from "../services/services";
+
 function cards() {
     class Catalog {
         constructor(title, img, alt, description, price, parentSelector, ...classes) {
@@ -48,16 +52,6 @@ function cards() {
         }
     }
 
-    const getResources = async url => { //асихронные процессы
-        const res = await fetch(url);
-
-        if (!res.ok) {
-            throw new Error(`Could not fetch ${url}, status: ${res.status}`);
-        }
-
-        return await res.json();
-    };
-
     // getResources("http://localhost:3000/menu")
     //     .then((data) => {
     //         data.forEach(({
@@ -86,4 +80,4 @@ function cards() {
 
 }
 
-module.exports = cards;
+export default cards;
